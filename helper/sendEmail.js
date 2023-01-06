@@ -5,12 +5,11 @@ require('dotenv').config()
  function sendEmail(email, message, subject) {
   
     const transport = nodemailer.createTransport({
-      host:"smtp.mailtrap.io",
-      port:2525,
-      secure: false,
+      host: "smtp.mailtrap.io",
+      port: 2525,
       auth: {
-        user: '0c3804aa601ee5',
-        pass:'b1e5ef36b5ef91'
+        user: "a28d723840e1ac",
+        pass: "4115e6a477449c"
       }
     });
     
